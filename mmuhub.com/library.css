@@ -1,0 +1,36 @@
+body{
+	background: no repeat;
+	background-size: cover;
+	font-family: Ariel;
+	color: black;
+	}
+ul 	{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	}
+ul li{
+	float:left;
+	width: 200px;
+	height: 40px;
+	background-color: green;
+	opacity: .8;
+	font-size: 20px;
+	margin: 2px;
+	line-height: 40px;
+	text-align: center;
+	 }
+ul li a{
+		text-decoration: none;
+		color: white;
+		display: block;
+		}
+ul li a:hover {
+				background-color: green;
+			  }
+ul li ul li{
+			display: none;
+		   }
+ul li:hover ul li{
+					display: block;
+				 }{\rtf1}
